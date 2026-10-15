@@ -1,0 +1,13 @@
+# Obrigatorios
+flask>=3.0
+flask-cors>=4.0
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+requests>=2.31
+yfinance>=0.2
+
+# Opcionais (o app funciona sem eles, com fallbacks)
+neuralforecast>=3.0   # N-HiTS - exige Python 3.12
+pmdarima>=2.0         # auto-ARIMA
+QuantLib>=1.34        # precificacao avancada

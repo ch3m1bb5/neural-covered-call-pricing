@@ -1,0 +1,19 @@
+# Segredos — NUNCA publicar
+.env
+.env.*
+*.env
+!.env.example
+!.env.template
+!.env.local.example
+
+# Dependencias / build
+node_modules/
+dist/
+.next/
+__pycache__/
+venv/
+.venv/
+
+# Logs e pacotes
+*.log
+*.zip

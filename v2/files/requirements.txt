@@ -1,0 +1,7 @@
+torch>=2.2
+numpy>=1.26
+scipy>=1.11
+flask>=3.0
+flask-cors>=4.0
+neuralforecast>=3.0   # N-HiTS forecaster (optional; LSTM fallback if absent)
+pandas>=2.0
